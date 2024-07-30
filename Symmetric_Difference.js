@@ -24,5 +24,10 @@ function sym(args) {
    console.log(result)
    return result;
   }
+
+  let s = "gram"
+
+  s = s.substring(0, 1 - 1) + s.substring(1);
+  console.log(s,"HOHWWWW")
   
   sym([1, 2, 3, 3], [5, 2, 1, 4]);
