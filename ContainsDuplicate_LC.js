@@ -1,5 +1,5 @@
 var containsDuplicate = function(nums) {
-    pairAndCount = {}
+    let pairAndCount = {}
 
     for (const number of nums) {
 
